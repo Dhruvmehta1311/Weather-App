@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body
+    style="background-color: #212121; font-family: sans-serif; color: white"
+  >
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10rem;
+        flex-direction: column;
+        gap: 4rem;
+      "
+    >
+      <input
+        style="padding: 1rem"
+        type="text"
+        id="city-input"
+        placeholder="Enter City Name"
+      />
+      <button
+        style="
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+          font-weight: 800;
+          padding: 0.5rem 3rem;
+        "
+        id="searchButton"
+      >
+        Search
+      </button>
+    </div>
+
+    <div
+      style="
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      "
+    >
+      <h3 id="cityName"></h3>
+      <h6 id="cityTime"></h6>
+      <p id="cityTemp"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
